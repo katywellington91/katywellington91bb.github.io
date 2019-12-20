@@ -1,0 +1,175 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-size: 10px;
+  font-weight:300px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.status-bar {
+  width: 375px;
+  height: 25px;
+  margin:0px;
+}
+
+.navigation {
+  background-color: #3b74e5;
+  width: 375px;
+  height: 70px;
+  align-items: baseline;
+  display: inline-flex;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  width: 375px;
+  height: 0px;
+  letter-spacing: .5px;
+}
+
+.fa-chevron-left {
+  float:left;
+  padding-left: 16px;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.fa-location-arrow {
+  float: right;
+  padding-right: 16px;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.list-headings {
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding-right: .5em;
+  padding-left: .5em;
+  vertical-align: baseline;
+  align-items: baseline;
+}
+
+h2 {
+  display: block;
+  color: #48484A;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 0px 16px 0px 16px;
+  margin: 5px;
+}
+
+h4 {
+  font-size: 20px;
+  background-color: #E9E7E7;
+  color: #3b74e5;
+  font-weight: 300;
+  margin-top: 5px;
+  height: 30px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 3px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 26px;
+  color: #fff;
+  line-height: 48px;
+  text-align: center;
+  background: #3b74e5;
+  display:inline-block;
+
+}
+
+.bus-info {
+  padding-bottom: 70px;
+  padding-top: 3px;
+  padding-right: 16px;
+  font-size: 20px;
+  height: 50px;
+  display: inline-block;
+  color: #48484A;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.frequency {
+  font-size: 13px;
+  font-style: italic;
+
+}
+
+.arriving {
+  font-size: 20px;
+  font-weight: bold;
+  color: #48484A;
+  text-align: right;
+  float: right;
+  padding-top: 25px;
+  /* border: 1px solid black;
+  outline-style: solid;
+  outline-color: red; */
+}
+
+
+.shadow-me {
+  /* border: 1px solid black;
+  outline-style: solid;
+  outline-color: red; */
+  box-shadow: 60px 1px #c8c7cc;
+  margin-bottom: 15px;
+  margin-right: -16px;
+  padding-right: 16px;
+
+}
+
+.fa-chevron-right {
+  color: #c8c7cc;
+  font-size: 22px;
+  padding-left: 2px;
+  float: right;
+  margin-left: 0.2em;
+  padding-top: 25px;
+
+}
+
+.eastbound-buses {
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
+.northbound-buses {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.southbound-buses {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.re-route{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.out-of-service {
+  padding-left: 16px;
+  padding-right: 16px;
+}
